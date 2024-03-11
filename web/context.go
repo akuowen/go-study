@@ -2,11 +2,15 @@ package web
 
 import "net/http"
 
-type context struct {
+type Context struct {
 	W http.ResponseWriter
-	R http.Request
+	R *http.Request
 }
 
-func (* context) ServeHTTP(w http.ResponseWriter, r *http.Request)  {
-	//
+//func (* context) ServeHTTP(w http.ResponseWriter, r *http.Request)  {
+//	//
+//}
+
+func  NewContext() *Context {
+	return &Context{}
 }
