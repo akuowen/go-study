@@ -7,10 +7,6 @@ type Context struct {
 	R *http.Request
 }
 
-//func (* context) ServeHTTP(w http.ResponseWriter, r *http.Request)  {
-//	//
-//}
-
-func  NewContext() *Context {
+func NewContext() *Context {
 	return &Context{}
 }
