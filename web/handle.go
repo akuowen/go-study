@@ -15,7 +15,9 @@ type TreeNodeHandler struct {
 
 func (t *TreeNodeHandler) ServerHttp(ctx *Context) {
 	//TODO implement me
-	panic("implement me")
+	//path := ctx.R.URL.Path
+	//method := ctx.R.Method
+
 }
 
 func NewTreeNodeHandler() Handler {
